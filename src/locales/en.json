@@ -1,0 +1,352 @@
+{
+  "common": {
+    "language": "Language",
+    "english": "English",
+    "bengali": "Bengali",
+    "retry": "Try again",
+    "allYears": "All years",
+    "allMonths": "All months",
+    "allDays": "All days",
+    "months": {
+      "1": "January",
+      "2": "February",
+      "3": "March",
+      "4": "April",
+      "5": "May",
+      "6": "June",
+      "7": "July",
+      "8": "August",
+      "9": "September",
+      "10": "October",
+      "11": "November",
+      "12": "December"
+    }
+  },
+  "auth": {
+    "forgot": {
+      "title": "Forgot Password",
+      "subtitle": "Enter your email — we'll send a password reset link.",
+      "rememberPrompt": "Remember your password?",
+      "loginLink": "Login",
+      "sendResetLink": "Send reset link",
+      "emailSentTitle": "Email sent",
+      "emailSentText": "Check your inbox. Open the reset link to set a new password.",
+      "ok": "OK",
+      "failed": "Failed",
+      "errGeneric": "Something went wrong. Please try again.",
+      "errUserNotFound": "No account exists with this email.",
+      "errInvalidEmail": "Invalid email address.",
+      "errTooManyRequests": "Too many attempts. Try again later."
+    },
+    "enterCode": {
+      "noEmailTitle": "No email",
+      "noEmailText": "Start again from Forgot password and enter your email.",
+      "resentTitle": "Sent again",
+      "resentText": "Check your email.",
+      "failedTitle": "Failed",
+      "failedSend": "Could not send.",
+      "heading": "Check your email",
+      "body": "We sent a <strong>reset link</strong> to your email. Click it to set a new password.",
+      "note": "Note: check spam/promotions. The link may expire after a while.",
+      "resend": "Resend link",
+      "backLogin": "Back to login",
+      "otherEmail": "Use a different email"
+    },
+    "reset": {
+      "successTitle": "Password updated",
+      "successText": "Sign in with your new password.",
+      "login": "Login",
+      "failed": "Failed",
+      "errReset": "Reset failed. Request a new link.",
+      "errWeak": "Password is too weak. Choose a stronger one.",
+      "errInvalidLink": "Link expired or invalid. Request reset again.",
+      "verifying": "Verifying reset link…",
+      "invalidTitle": "Invalid link",
+      "invalidBody": "Open this page using the reset link from your email, or request a new reset.",
+      "expiredTitle": "Link expired or invalid",
+      "expiredBody": "Enter your email again to get a new reset link.",
+      "tryAgain": "Try again",
+      "setNew": "Set a new password",
+      "pageTitle": "Reset Password",
+      "forgotMenu": "Forgot password",
+      "backLogin": "Back to Login",
+      "resetBtn": "Reset Password"
+    }
+  },
+  "dashboard": {
+    "menu": {
+      "main": "Main menu",
+      "vehicle": "Vehicle",
+      "products": "Products",
+      "packages": "Packages",
+      "orders": "Orders",
+      "finance": "Finance",
+      "qr": "QR",
+      "users": "Users",
+      "analytics": "Analytics",
+      "allVehicles": "Vehicles",
+      "addVehicle": "Add Vehicle",
+      "assign": "Assign",
+      "scanAssign": "Scan & Assign",
+      "productList": "Product List",
+      "addProduct": "Add Product",
+      "packageList": "Package List",
+      "addPackage": "Add Package",
+      "orderList": "Order List",
+      "completed": "Completed",
+      "pending": "Pending",
+      "cancelled": "Cancelled",
+      "reports": "Reports",
+      "allQr": "QR Codes",
+      "generateQr": "Generate QR",
+      "reviews": "Reviews",
+      "messages": "Messages",
+      "userManagement": "Users",
+      "addUser": "Add user",
+      "addProvider": "Add provider"
+    },
+    "logout": {
+      "confirmTitle": "Are you sure?",
+      "confirmText": "Do you want to log out from the admin panel?",
+      "yes": "Yes, log out",
+      "cancel": "Cancel",
+      "successTitle": "Logged out",
+      "successText": "You have been logged out.",
+      "failTitle": "Logout failed",
+      "failText": "Could not log out.",
+      "ok": "OK",
+      "home": "Home",
+      "logout": "Log out"
+    },
+    "qr": {
+      "generate": {
+        "errGenerate": "Could not generate QR codes.",
+        "errPdf": "Could not create PDF. Please try again.",
+        "title": "QR tag generator",
+        "subtitle": "Separate print designs for bike and car. PDF download: one tag per A4 page — ready for press or home printing.",
+        "tagType": "Tag type",
+        "countLabel": "Quantity (max 50)",
+        "generating": "Generating…",
+        "generate": "Generate",
+        "created": "Created ({{count}} items)",
+        "previewHint": "Preview below. Download PDF for printing.",
+        "downloadAllPdf": "Download all (PDF)",
+        "downloadSingle": "Download PDF (print ready)",
+        "emptyHint": "Choose a type, enter a quantity, then generate.",
+        "types": {
+          "bike": {
+            "label": "Bike",
+            "sub": "",
+            "description": "Compact tag layout for two-wheelers."
+          },
+          "car": {
+            "label": "Car",
+            "sub": "",
+            "description": "Wide header strip suited for four-wheelers."
+          }
+        }
+      },
+      "all": {
+        "loading": "Loading QR list…",
+        "title": "All QR codes",
+        "subtitle": "Filter by tag type (bike/car) and date. Summary analytics in the cards above.",
+        "liveFilter": "Live filter",
+        "filterHeading": "Filter by type and date",
+        "typeLabel": "Tag type",
+        "allTypes": "All types",
+        "bike": "Bike",
+        "car": "Car",
+        "year": "Year",
+        "month": "Month",
+        "day": "Day",
+        "reset": "Reset",
+        "filterHint": "If you pick a month without a year, the current year is used. Pick a month before choosing a day.",
+        "analytics": "Analytics",
+        "loadError": "Could not load data.",
+        "noResults": "No QR codes match this filter.",
+        "scan": "Scans",
+        "created": "Created",
+        "openLink": "Open link",
+        "stats": {
+          "totalQr": "Total QR",
+          "totalQrSub": "For selected filters",
+          "assigned": "Assigned",
+          "assignedSub": "Linked to a vehicle",
+          "unassigned": "Unassigned",
+          "unassignedSub": "Unused tags",
+          "totalScans": "Total scans",
+          "totalScansSub": "All codes combined",
+          "bikeTags": "Bike tags",
+          "bikeTagsSub": "qrType: bike",
+          "carTags": "Car tags",
+          "carTagsSub": "qrType: car"
+        }
+      }
+    }
+  },
+  "user": {
+    "menu": {
+      "profile": "My Profile",
+      "orders": "Orders",
+      "subscription": "Subscription",
+      "vehicles": "My Vehicles",
+      "payments": "Payments",
+      "settings": "Settings",
+      "logout": "Logout",
+      "myAccount": "My Profile"
+    },
+    "myPurchases": {
+      "loading": "Loading purchase validity…",
+      "loadError": "Could not load orders. Try again later.",
+      "title": "Subscription",
+      "subtitle": "Validity is counted from each successful payment. When it expires you can renew by purchasing again — added to cart.",
+      "totalLines": "Total lines",
+      "active": "Active",
+      "expired": "Expired",
+      "legacy": "Legacy (no tracking)",
+      "empty": "No paid orders yet. After you buy a product, validity will appear here.",
+      "order": "Order",
+      "priceQty": "৳ {{price}} × {{qty}}",
+      "badgeLegacy": "Legacy order",
+      "badgeActive": "Active",
+      "badgeExpired": "Expired",
+      "daysPerUnit": "{{days}} days / unit",
+      "start": "Start",
+      "end": "End",
+      "notTracked": "Not tracked",
+      "renew": "Renew (add to cart)",
+      "renewNote": "A new period will run from the date payment is confirmed."
+    }
+  },
+  "nav": {
+    "home": "Home",
+    "products": "Products",
+    "about": "About",
+    "contact": "Contact",
+    "dashboard": "Dashboard",
+    "signIn": "Sign In",
+    "signUp": "Sign Up",
+    "role": "Role"
+  },
+  "home": {
+    "hero": {
+      "badge": "Smart QR Solution",
+      "heading": "Protect Your Vehicle with Smart QR Tags",
+      "subheading": "Scan the QR to quickly reach the vehicle owner when needed.",
+      "primaryCta": "Get Your QR Tag",
+      "secondaryCta": "How It Works",
+      "trust": "1000+ vehicles protected"
+    },
+    "features": {
+      "items": [
+        "Instant owner contact via QR scan",
+        "No app required (works with any phone camera)",
+        "Works for bike, car and more",
+        "Easy setup and management dashboard"
+      ]
+    }
+  },
+  "aboutPage": {
+    "badge": "About",
+    "title": "About QR Tag System",
+    "intro": "QR Tag System is a smart solution that makes your vehicle safer and better connected. By simply scanning a QR code, anyone can quickly contact the vehicle owner in parking or emergency situations.",
+    "missionTitle": "Mission",
+    "mission": "To solve everyday problems using simple, effective technology.",
+    "visionTitle": "Vision",
+    "vision": "To build a smart vehicle ecosystem in Bangladesh.",
+    "storyTitle": "Our Story",
+    "story": "It started with a simple idea—to solve real-life parking and vehicle communication problems. Today, that idea has grown into a practical solution helping people every day.",
+    "whyTitle": "Why choose QR Tag?",
+    "whyIntro": "Vehicle communication is now smarter, faster, and easier.",
+    "points": [
+      "Instant contact with the owner via QR scan",
+      "Faster resolution of parking issues",
+      "No app required",
+      "Simple and hassle-free system",
+      "Useful in emergency situations"
+    ],
+    "ctaTitle": "Start Using QR Tag Today",
+    "ctaSubtitle": "Simple, secure and practical for daily vehicle safety.",
+    "ctaButton": "Get Your QR Tag"
+  },
+  "contactPage": {
+    "heading": "Get in Touch",
+    "subheading": "We are always here for you.",
+    "leadTitle": "Get in touch",
+    "leadText": "For support, orders, business queries, or urgent issues, send us a message and our team will respond.",
+    "phone": "+8801XXXXXXXXX",
+    "whatsapp": "+8801XXXXXXXXX",
+    "email": "scanzybd@gmail.com",
+    "address1": "Dhaka",
+    "address2": "Bangladesh",
+    "hours": "10 AM – 8 PM (Sat–Thu)",
+    "map": "https://maps.google.com",
+    "formTitle": "Send a message",
+    "name": "Name",
+    "emailLabel": "Email",
+    "message": "Message",
+    "namePlaceholder": "Your name",
+    "emailPlaceholder": "you@example.com",
+    "messagePlaceholder": "How can we help?",
+    "send": "Send message",
+    "success": "Message sent successfully!",
+    "error": "Something went wrong. Try again."
+  },
+  "footer": {
+    "ctaTitle": "Get started with QR Tag",
+    "ctaSubtitle": "Smart QR-based vehicle safety system",
+    "ctaButton": "Get Your QR Tag",
+    "quickLinks": "Quick Links",
+    "company": "Company",
+    "support": "Support",
+    "contact": "Get in Touch",
+    "copyright": "All rights reserved",
+    "extraNote": "Smart Safety for Every Vehicle"
+  },
+  "policies": {
+    "termsTitle": "Terms of Use",
+    "termsBody": "Use responsibly. Service misuse is prohibited.",
+    "privacyTitle": "Privacy Policy",
+    "privacyBody": "We do not publicly expose personal data.",
+    "refundTitle": "Refund Policy",
+    "refundBody": "Refund applicable within 7 days (conditions apply).",
+    "shippingTitle": "Shipping Information",
+    "shippingBody": "Delivery within 3-5 business days.",
+    "businessTitle": "Business Terms",
+    "businessBody": "Bulk and business partnerships available.",
+    "faqTitle": "FAQ",
+    "faq": [
+      {
+        "q": "Will phone numbers be publicly visible after scanning?",
+        "a": "No. A secure contact flow is used."
+      },
+      {
+        "q": "Is internet required?",
+        "a": "Yes. Internet is required to access the scanned link."
+      },
+      {
+        "q": "Does it work on all phones?",
+        "a": "Yes. It is compatible with modern smartphone cameras."
+      }
+    ]
+  },
+  "store": {
+    "title": "Choose Your QR Tag Package",
+    "subtitle": "Pick the right plan for your needs.",
+    "featured": "Featured products",
+    "featuredSubtitle": "Smart QR tags and bundles for bike and car safety.",
+    "fullDetails": "Full page details",
+    "addToCart": "Add to cart",
+    "details": "Details",
+    "more": "More",
+    "showLess": "Show less",
+    "allPrices": "All prices",
+    "under300": "Under ৳300",
+    "between300500": "৳300 – ৳500",
+    "above500": "Above ৳500"
+  },
+  "labels": {
+    "checkout": "Checkout",
+    "addVehicle": "Add Vehicle"
+  }
+}
